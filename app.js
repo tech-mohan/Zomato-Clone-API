@@ -8,7 +8,7 @@ dotenv.config();
 const routes = require('./Routers/index');
 
 const host = "localhost";
-const port = 8090;
+const port = 10000;
 const Database = process.env.DATABASE_URL
 // MogngoDB connecting string
 // const uri = "mongodb+srv://client:client2021@cluster0.40etm.mongodb.net/DB-1?retryWrites=true&w=majority";
