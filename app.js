@@ -9,7 +9,7 @@ const routes = require('./Routers/index');
 
 const host = "0.0.0.0";
 const port = 10000;
-const Database = process.env.DATABASE_URL
+const Database ="mongodb+srv://zomato:zc1396@zomatocluster.tzgmm5h.mongodb.net/zomatodb"
 // MogngoDB connecting string
 // const uri = "mongodb+srv://client:client2021@cluster0.40etm.mongodb.net/DB-1?retryWrites=true&w=majority";
 // const uri = "mongodb+srv://zomato:zc1396@zomatocluster.tzgmm5h.mongodb.net/zomatodb";
